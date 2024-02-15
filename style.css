@@ -40,6 +40,7 @@ body {
 .options option:hover{
     color: red;
     font-weight: bold;
+    cursor: pointer;
 }
 button {
     border-radius: 5px;
@@ -47,11 +48,11 @@ button {
     width: 100px;
     background-color: lightskyblue;
     color: white;
-
+  transition: all 1s ease-in-out ;
 }
 button:hover{
     background-color: rgba(153, 58, 74, 0.116);
-
+    cursor: pointer;
 }
 .top {
     border: 2px solid rgb(21, 21, 51);
@@ -64,6 +65,7 @@ button:hover{
     border-radius: 10px;
     background-color: rgb(21, 21, 51);
     padding-top: 60px;
+    
     
 }
 
@@ -84,18 +86,14 @@ span h3 {
     padding: 5px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transition: all;
-    transition: width 3s ease-in 1s;
-
-
+    transition: all .8s ease-in-out;
 }
 
 .mid_elements:hover {
-    width: 100%;
-    position: relative;
-    bottom: 10px;
-    background-color: rgba(135, 206, 250, 0.116);
-
+    
+   
+    background-color: rgba(89, 184, 243, 0.747);
+    cursor: pointer;
 }
 
 .mid_elements img {
@@ -115,9 +113,9 @@ span h3 {
 }
 
 .bottom_part1:hover {
-    position: relative;
-    bottom: 10px;
-    background-color: rgba(135, 206, 250, 0.226);
+    
+    background-color: rgba(47, 159, 228, 0.678);
+    cursor: pointer;
 }
 
 .bottom_part1 {
@@ -125,6 +123,7 @@ span h3 {
     text-align: center;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all .9s ease-in-out;
 }
 
 .bottom_part1 img {
